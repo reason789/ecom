@@ -1,0 +1,33 @@
+1. we did object to json in utils > apifeatures >> filter()
+    from objectformat( { price: { gt: '5200', It: '2500' } } ) to json format({"price":{"gt":"5200","It":"2500"}})
+     beacuse we want to add $ sign bafore gt|gte|It|gte 
+
+2.  6.Backend user Authentication.rar  ... here we installed 
+    npm i bcryptjs jsonwebtoken validator nodemailer cookie-parser body-parser
+    bcryptjs = for secure password
+    jsonwebtoken = for generate token
+    validator = for email validation
+    nodemailer = when click forget password it will pass an OTP code to that specific email
+    cookie-parser = we store json web token in cookies. so no one can access it from frontend and if we store it local storage
+                    then any one can access it.
+    
+    i) we import cookie-parser in app.js
+
+3. We will fixed some error in this time start from 3:22:43 in error.js 
+
+    Mongoose duplicate key error
+    Wrong JWT error
+    JWT Expire error
+       
+
+
+4.  in 7.1
+5. auth.js : 30 no comment is wrong. we r getting data from req.user
+
+
+FRONTEND 
+
+npm i axios react-alert react-alert-template-basic react-helmet react-redux redux redux-thunk redux-devtools-extension react-router-dom overlay-navbar
+
+axios = for fetch data from Backend
+react-helmet = We can use it to change the page TITLE, language, and meta-information
