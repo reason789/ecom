@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+mongoose.set("strictQuery", true);
 
 const connectDatabase = ()=>{
     mongoose.connect("mongodb+srv://sixPackProgrammer:sixPackProgrammer@cluster0.0jijw.mongodb.net/Ecommerce?retryWrites=true&w=majority",{useNewUrlParser:true,useUnifiedTopology:true})
